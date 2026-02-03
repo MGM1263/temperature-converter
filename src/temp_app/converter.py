@@ -73,5 +73,12 @@ def kelvin_to_celsius(kelvin):
     """
     return kelvin - 273.15
 
+if __name__ == "__main__":
+    # Quick test of conversion functions
+    print("Temperature Converter Tests")
+    print(f"0°C = {celsius_to_fahrenheit(0)}°F")
+    print(f"100°C = {celsius_to_fahrenheit(100)}°F")
+    print(f"0°C = {celsius_to_kelvin(0)}K")
+
 
 
